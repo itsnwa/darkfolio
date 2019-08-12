@@ -2,15 +2,27 @@
   <footer class="footer">
     <div class="to-top" @click="scrollTopTop">-></div>
     <div class="social">
-      <a href="#0" class="channel">TW</a>
-      <a href="#0" class="channel">IG</a>
-      <a href="#0" class="channel">GH</a>
+      <a
+        class="channel"
+        v-for="(social, index) in data.social"
+        :key="index"
+        :href="`https://${social.channel}.com/${social.handle}`"
+      >
+        {{ social.link_text }}
+      </a>
     </div>
   </footer>
 </template>
 
 <script>
+import data from "@/data/theme.json";
+
 export default {
+  data() {
+    return {
+      data
+    };
+  },
   methods: {
     scrollTopTop() {
       window.scrollTo({
@@ -32,6 +44,7 @@ export default {
   justify-content: space-between;
   padding: 0 2rem;
   z-index: 100;
+  mix-blend-mode: difference;
 }
 .to-top {
   transform: rotate(-90deg);
@@ -41,8 +54,6 @@ export default {
   .channel {
     margin-right: 1rem;
     text-transform: uppercase;
-    text-decoration: none;
-    color: inherit;
     letter-spacing: 0.05em;
     &:last-of-type {
       margin: 0;

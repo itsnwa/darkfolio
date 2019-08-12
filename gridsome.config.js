@@ -3,9 +3,10 @@
 
 // Changes here require a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
+const theme = require('./src/data/theme.json')
 
 module.exports = {
-  siteName: 'NWA',
+  siteName: theme.site_name,
   plugins: [
     {
       use: '@gridsome/source-filesystem',
