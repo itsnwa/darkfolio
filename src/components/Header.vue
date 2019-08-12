@@ -36,6 +36,7 @@ export default {
   justify-content: space-between;
   padding: 0 2rem;
   text-transform: uppercase;
+  letter-spacing: 0.05em;
   z-index: 100;
 
   &:hover {
@@ -52,7 +53,6 @@ export default {
 .name {
   font-size: 1rem;
   font-weight: 500;
-  letter-spacing: 0.4em;
   user-select: none;
   .group {
     margin-right: 0.5em;

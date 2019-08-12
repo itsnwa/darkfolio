@@ -1,6 +1,6 @@
 <template>
   <footer class="footer">
-    <div class="to-top"></div>
+    <div class="to-top" @click="scrollTopTop">-></div>
     <div class="social">
       <a href="#0" class="channel">TW</a>
       <a href="#0" class="channel">IG</a>
@@ -10,7 +10,16 @@
 </template>
 
 <script>
-export default {};
+export default {
+  methods: {
+    scrollTopTop() {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+      });
+    }
+  }
+};
 </script>
 
 <style lang="scss" scoped>
@@ -24,12 +33,17 @@ export default {};
   padding: 0 2rem;
   z-index: 100;
 }
+.to-top {
+  transform: rotate(-90deg);
+  user-select: none;
+}
 .social {
   .channel {
     margin-right: 1rem;
     text-transform: uppercase;
     text-decoration: none;
     color: inherit;
+    letter-spacing: 0.05em;
     &:last-of-type {
       margin: 0;
     }
