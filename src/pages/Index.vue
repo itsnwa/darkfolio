@@ -66,10 +66,11 @@ export default {
 
 <style lang="scss" scoped>
 .projects {
-  margin: 12rem 2rem;
+  margin: 0 2rem;
 }
 .project {
   width: 100%;
+  margin-bottom: 4rem;
 }
 .project-thumbnail {
   display: block;
@@ -83,7 +84,7 @@ export default {
   line-height: 1.5;
 }
 .project-title {
-  flex: 0 0 50%;
+  flex: 0 0 40%;
   font-size: 1rem;
   font-weight: 500;
   margin: 0;
@@ -101,6 +102,6 @@ export default {
 .project-year {
   flex: 1;
   text-align: right;
-  opacity: 0.4;
+  /* opacity: 0.4; */
 }
 </style>

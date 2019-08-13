@@ -45,14 +45,10 @@ export default {
 
 <style lang="scss" scoped>
 .header {
-  position: fixed;
-  top: 4rem;
-  left: 0;
-  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  padding: 0 2rem;
+  padding: 4rem 2rem 5rem 2rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   z-index: 100;
@@ -75,6 +71,7 @@ export default {
   }
   &.first {
     .letter {
+      transition: opacity 0.15s ease;
       opacity: 0;
     }
     .first-letter {
