@@ -1,6 +1,11 @@
 <template>
   <header class="header">
-    <h1 class="name" :class="{ first: data.first_letter_only }">
+    <g-link
+      to="/"
+      tag="h1"
+      class="name"
+      :class="{ first: data.first_letter_only }"
+    >
       <span
         class="word"
         :class="{ 'first-line': index === 0 && multiLine }"
@@ -15,7 +20,7 @@
         }}</span>
         <span v-if="!data.first_letter_only">{{ word }}</span>
       </span>
-    </h1>
+    </g-link>
     <div class="contact">
       <a class="link" :href="`mailto:${data.email}`">say hi !</a>
     </div>

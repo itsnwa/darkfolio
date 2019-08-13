@@ -7,6 +7,14 @@ categories:
   - Motion design
 ---
 
-# Stake motion design
+Here's some introduction text to this project...
 
-Project contents
+![Stake](./assets/stake-motion-graphics-graphic-design-branding-film-video-stock-mindsparkle-mag-2.jpg)
+![Stake](./assets/stake-motion-graphics-graphic-design-branding-film-video-stock-mindsparkle-mag-4.gif)
+![Stake](./assets/stake-motion-graphics-graphic-design-branding-film-video-stock-mindsparkle-mag-5.gif)
+![Stake](./assets/stake-motion-graphics-graphic-design-branding-film-video-stock-mindsparkle-mag-6.gif)
+![Stake](./assets/stake-motion-graphics-graphic-design-branding-film-video-stock-mindsparkle-mag-7.gif)
+![Stake](./assets/stake-motion-graphics-graphic-design-branding-film-video-stock-mindsparkle-mag-8.gif)
+![Stake](./assets/stake-motion-graphics-graphic-design-branding-film-video-stock-mindsparkle-mag-9.jpg)
+![Stake](./assets/stake-motion-graphics-graphic-design-branding-film-video-stock-mindsparkle-mag-10.gif)
+![Stake](./assets/stake-motion-graphics-graphic-design-branding-film-video-stock-mindsparkle-mag-11.jpg)
