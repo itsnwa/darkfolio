@@ -1,9 +1,8 @@
 <template>
   <Layout>
     <section class="projects">
-      <g-link
-        :to="project.node.path"
-        tag="article"
+      <article
+        @click="goTo($event, project.node.path)"
         class="project"
         v-for="project in $page.projects.edges"
         :key="project.node.id"
@@ -26,7 +25,7 @@
           :categories="project.node.categories"
           :year="project.node.year"
         />
-      </g-link>
+      </article>
     </section>
   </Layout>
 </template>
@@ -51,6 +50,7 @@ query Projects {
 
 <script>
 import ProjectMeta from "@/components/ProjectMeta";
+import { setTimeout } from "timers";
 
 export default {
   components: {
@@ -58,6 +58,23 @@ export default {
   },
   metaInfo: {
     titleTemplate: "NWA"
+  },
+  methods: {
+    goTo(event, route) {
+      const distanceScrolled = window.pageYOffset;
+      const elementPosition = event.target.getBoundingClientRect().top;
+      const totalOffset = distanceScrolled + elementPosition;
+      const finalPosition = totalOffset - 167;
+
+      // Scroll window so that the thumbnail is 12rem from the
+      // top of the browser window, this will make a seamless transition.
+      window.scrollTo({ top: finalPosition, behavior: "smooth" });
+
+      // Now, navigate to the project page
+      setTimeout(() => {
+        this.$router.push(route);
+      }, 450);
+    }
   }
 };
 </script>
@@ -69,6 +86,7 @@ export default {
 .project {
   width: 100%;
   margin-bottom: 4rem;
+  cursor: pointer;
 }
 .project-thumbnail {
   display: block;

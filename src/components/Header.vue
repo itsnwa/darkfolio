@@ -57,13 +57,19 @@ export default {
   text-transform: uppercase;
   letter-spacing: 0.05em;
   z-index: 100;
+  opacity: 1;
   mix-blend-mode: difference;
+  transition: opacity 0.5s ease;
+  &.hidden {
+    opacity: 0;
+  }
 }
 .name {
   font-size: 1rem;
   font-weight: 500;
   user-select: none;
   margin: 0;
+  cursor: pointer;
   .word {
     margin-right: 0.5rem;
     &.first-line {

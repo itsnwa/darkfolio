@@ -10,6 +10,9 @@ categories:
 Here's some introduction text to this project...
 
 ![Stake](./assets/stake-motion-graphics-graphic-design-branding-film-video-stock-mindsparkle-mag-2.jpg)
+
+And in-between!
+
 ![Stake](./assets/stake-motion-graphics-graphic-design-branding-film-video-stock-mindsparkle-mag-4.gif)
 ![Stake](./assets/stake-motion-graphics-graphic-design-branding-film-video-stock-mindsparkle-mag-5.gif)
 ![Stake](./assets/stake-motion-graphics-graphic-design-branding-film-video-stock-mindsparkle-mag-6.gif)
