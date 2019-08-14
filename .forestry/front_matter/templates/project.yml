@@ -18,4 +18,3 @@ fields:
     use_select: false
 pages:
 - projects/molecular-gastronomy.md
-- projects/forestry-import-button.md
