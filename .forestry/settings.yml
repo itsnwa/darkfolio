@@ -12,10 +12,10 @@ sections:
   - type: document
     path: src/data/theme.json
     label: Theme options
-upload_dir: uploads
-public_path: '../uploads'
+upload_dir: static/uploads
+public_path: '/uploads'
 front_matter_path: '../uploads'
-use_front_matter_path: true
+use_front_matter_path: false
 file_template: ':filename:'
 build:
   preview_output_directory: dist
