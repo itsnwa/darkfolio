@@ -1,5 +1,8 @@
-<p style="align:center;">Portfolio starter theme</p>
-<p style="align:center;">for Gridsome and Forestry</p>
+<p align="center">
+
+![Darkfolio Preview](https://files.nichlas.now.sh/darkfolio-preview.png)
+
+</p>
 
 ## Todo
 
