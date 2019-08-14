@@ -65,6 +65,11 @@ p {
   padding: 4rem 0 6rem 0;
   font-size: 2rem;
   font-weight: 400;
-  margin-left: 60%;
+  margin-left: 0;
+  max-width: 780px;
+  line-height: 1.5;
+  @media (min-width: 920px) {
+    margin-left: 40%;
+  }
 }
 </style>
