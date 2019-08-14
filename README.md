@@ -30,7 +30,7 @@ This project has been pre-configured to work with Forestry, just import your rep
 Any changes you make will be commited back to the repo, and deployed if you're using Netlify.
 
 <p>
-  <a href="https://app.forestry.io/quick-start?repo=itsnwa/darkfolio&amp;provider=github&amp;engine=other" rel="nofollow"><img src="https://camo.githubusercontent.com/2455e97e4e989374a355fb0bea7ad364f2561c92/68747470733a2f2f6173736574732e666f7265737472792e696f2f696d706f72742d746f2d666f7265737472794b2e737667" alt="Import this project into Forestry" data-canonical-src="https://assets.forestry.io/import-to-forestryK.svg" style="max-width:100%;"></a>
+  <a href="https://app.forestry.io/quick-start?repo=itsnwa/darkfolio&amp;provider=github&amp;engine=other&amp;preview=https://files.nichlas.now.sh/darkfolio-preview.png" rel="nofollow"><img src="https://camo.githubusercontent.com/2455e97e4e989374a355fb0bea7ad364f2561c92/68747470733a2f2f6173736574732e666f7265737472792e696f2f696d706f72742d746f2d666f7265737472794b2e737667" alt="Import this project into Forestry" data-canonical-src="https://assets.forestry.io/import-to-forestryK.svg" style="max-width:100%;"></a>
 </p>
 
 ## Deploy with Netlify
