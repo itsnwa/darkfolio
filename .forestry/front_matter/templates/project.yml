@@ -1,0 +1,18 @@
+---
+label: Project
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: file
+  name: thumbnail
+  label: thumbnail
+- type: text
+  name: year
+  label: year
+- type: list
+  name: categories
+  label: categories
+  config:
+    use_select: false
