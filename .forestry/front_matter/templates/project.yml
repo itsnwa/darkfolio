@@ -5,15 +5,14 @@ fields:
 - type: text
   name: title
   label: title
-- type: text
-  name: year
-  label: year
 - type: file
   name: thumbnail
   label: thumbnail
-- type: boolean
-  name: thumbnail_video
-  label: thumbnail_video
+- type: text
+  name: year
+  label: year
 - type: list
   name: categories
   label: categories
+  config:
+    use_select: false
