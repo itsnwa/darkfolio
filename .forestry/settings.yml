@@ -14,8 +14,8 @@ sections:
   label: Theme options
 upload_dir: static/uploads
 public_path: "/uploads"
-front_matter_path: "../uploads"
-use_front_matter_path: false
+front_matter_path: "../static/uploads"
+use_front_matter_path: true
 file_template: ":filename:"
 build:
   preview_output_directory: dist
