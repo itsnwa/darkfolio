@@ -39,7 +39,7 @@ html {
   box-sizing: inherit;
 }
 body {
-  background-color: #222222;
+  background-color: #131313;
   color: white;
   margin: 0;
   padding: 0;

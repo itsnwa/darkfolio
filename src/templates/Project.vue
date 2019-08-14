@@ -53,6 +53,7 @@ export default {
 <style lang="scss">
 .project-post {
   padding: 0 2rem;
+  margin-bottom: 8rem;
 }
 img {
   width: 100% !important;

@@ -28,7 +28,7 @@
 </template>
 
 <script>
-import data from "@/assets/data/theme.json";
+import data from "@/data/theme.json";
 
 export default {
   name: "Header",
