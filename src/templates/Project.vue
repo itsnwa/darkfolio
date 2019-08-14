@@ -21,7 +21,6 @@ query Project ($path: String!) {
   project: project(path: $path) {
     title
     thumbnail
-    thumbnail_video
     year
     categories
     content

@@ -7,18 +7,10 @@
         v-for="project in $page.projects.edges"
         :key="project.node.id"
       >
-        <video
-          class="project-thumbnail"
-          :src="project.node.thumbnail_video.src"
-          v-if="project.node.thumbnail_video"
-          autoplay
-          loop
-          playsinline
-        ></video>
         <g-image
           class="project-thumbnail"
           :src="project.node.thumbnail.src"
-          v-if="!project.node.thumbnail_video"
+          :alt="project.node.title"
         ></g-image>
         <ProjectMeta
           :title="project.node.title"
@@ -40,7 +32,6 @@ query Projects {
         title
         year
         thumbnail
-        thumbnail_video
         categories
       }
     }
@@ -55,8 +46,13 @@ export default {
   components: {
     ProjectMeta
   },
+  data() {
+    return {
+      data: require("@/data/theme.json")
+    };
+  },
   metaInfo: {
-    titleTemplate: "NWA"
+    titleTemplate: this.data.site_name
   },
   methods: {
     goTo(event, route) {
