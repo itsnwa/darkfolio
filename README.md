@@ -1,14 +1,7 @@
-# Default starter for Gridsome
+<p style="align:center;">Portfolio starter theme</p>
+<p style="align:center;">for Gridsome and Forestry</p>
 
-This is the project you get when you run `gridsome create new-project`.
+## Todo
 
-### 1. Install Gridsome CLI tool if you don't have
-
-`npm install --global @gridsome/cli`
-
-### 2. Create a Gridsome project
-
-1. `gridsome create my-gridsome-site` to install default starter
-2. `cd my-gridsome-site` to open the folder
-3. `gridsome develop` to start a local dev server at `http://localhost:8080`
-4. Happy coding 🎉🙌
+- [ ] Fix single project page typography
+- [ ] Add previous/next project at the bottom?

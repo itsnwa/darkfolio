@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import data from "@/data/theme.json";
+import data from "@/assets/data/theme.json";
 
 export default {
   data() {

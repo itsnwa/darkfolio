@@ -50,7 +50,6 @@ query Projects {
 
 <script>
 import ProjectMeta from "@/components/ProjectMeta";
-import { setTimeout } from "timers";
 
 export default {
   components: {
