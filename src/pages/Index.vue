@@ -46,13 +46,8 @@ export default {
   components: {
     ProjectMeta
   },
-  data() {
-    return {
-      data: require("@/data/theme.json")
-    };
-  },
   metaInfo: {
-    titleTemplate: this.data.site_name
+    titleTemplate: require("../data/theme.json").site_name
   },
   methods: {
     goTo(event, route) {
