@@ -3,7 +3,7 @@
 
 // Changes here require a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
-const theme = require('./src/data/theme.json')
+const theme = require('./src/assets/data/theme.json')
 
 module.exports = {
   siteName: theme.site_name,

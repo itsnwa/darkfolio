@@ -14,18 +14,6 @@ export default {
   components: {
     Header,
     Footer
-  },
-  data() {
-    return {
-      data: require("@/assets/data/theme.json")
-    };
-  },
-  beforeMount() {
-    if (this.data.dark_mode) {
-      window.document.body.setAttribute("data-theme", "dark");
-    } else {
-      window.document.body.setAttribute("data-theme", "light");
-    }
   }
 };
 </script>
@@ -51,6 +39,8 @@ html {
   box-sizing: inherit;
 }
 body {
+  background-color: #222222;
+  color: white;
   margin: 0;
   padding: 0;
 }

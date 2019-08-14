@@ -3,10 +3,9 @@
   "header_title": "Nichlas Wærnes Andersen",
   "first_letter_only": true,
   "email": "nichlas@itsnwa.com",
-  "dark_mode": false,
   "social": [
     { "channel": "twitter", "handle": "nichlaswa", "link_text": "tw" },
     { "channel": "instagram", "handle": "its.nwa", "link_text": "ig" },
-    { "channel": "github", "handle": "itsnwa", "link_text": "github" }
+    { "channel": "github", "handle": "itsnwa", "link_text": "gh" }
   ]
 }

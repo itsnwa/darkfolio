@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import data from "@/assets/data/theme.json";
+import data from "@/data/theme.json";
 
 export default {
   data() {
@@ -34,7 +34,7 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 .footer {
   position: fixed;
   bottom: 2rem;
