@@ -4,6 +4,10 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: document
+  path: src/data/theme.json
+  label: Theme options
+  match: "**/*"
 - type: directory
   path: projects
   label: Projects
