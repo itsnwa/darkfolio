@@ -20,6 +20,9 @@ npm install --global @gridsome/cli
 # cd into the project directory
 cd darkfolio
 
+# install dependencies
+npm install
+
 # Start local dev server
 gridsome develop
 ```
