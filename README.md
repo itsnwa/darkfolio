@@ -1,6 +1,6 @@
 <p align="center">
 
-![Darkfolio Preview](https://files.nichlas.now.sh/darkfolio-preview.png)
+![Darkfolio Preview](https://files-n24jxyctz.now.sh/darkfolio-preview.png)
 
 </p>
 <p align="center">
