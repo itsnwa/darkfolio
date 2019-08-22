@@ -49,6 +49,15 @@ export default {
 .to-top {
   transform: rotate(-90deg);
   user-select: none;
+  cursor: pointer;
+  border: 2px solid transparent;
+  text-align: center;
+  font-weight: 700;
+  line-height: 0;
+  padding: 1rem 0.5rem;
+  &:hover {
+    border: 2px solid white;
+  }
 }
 .social {
   .channel {
